@@ -2,7 +2,7 @@
 
 namespace Demo;
 
-class Person
+class Employee
 {
     /**
      * @var int|null
