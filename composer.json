@@ -1,0 +1,23 @@
+{
+    "name": "dave-liddament/sarb-demo",
+    "description": "Demo using SARB.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dave Liddament",
+            "email": "daveliddament@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4" : {
+	    "Demo\\" : "src/"
+        }
+    },
+    "require-dev": {
+        "vimeo/psalm": "^3.0.7",
+        "phpstan/phpstan": "^0.10.7",
+        "dave-liddament/sarb": "^0.3.1"
+    }
+}
