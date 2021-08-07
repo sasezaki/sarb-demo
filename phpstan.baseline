@@ -1,0 +1,13 @@
+{
+    "historyAnalyser": "git",
+    "historyMarker": "08b6b5d4177574613afae14c98801b4f4d01d118",
+    "resultsParser": "phpstan-json",
+    "analysisResults": [
+        {
+            "lineNumber": 19,
+            "fileName": "src\/Person.php",
+            "type": "Method should return string but returns string|null.",
+            "message": "Method Demo\\Person::getName() should return string but returns string|null."
+        }
+    ]
+}
