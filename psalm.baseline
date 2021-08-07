@@ -1,0 +1,19 @@
+{
+    "historyAnalyser": "git",
+    "historyMarker": "cdcdfe623ad518b95c2ed710b7a2319648f10466",
+    "resultsParser": "psalm-json",
+    "analysisResults": [
+        {
+            "lineNumber": 17,
+            "fileName": "src\/Person.php",
+            "type": "InvalidNullableReturnType",
+            "message": "The declared return type 'string' for Demo\\Person::getName is not nullable, but 'null|string' contains null"
+        },
+        {
+            "lineNumber": 19,
+            "fileName": "src\/Person.php",
+            "type": "NullableReturnStatement",
+            "message": "The declared return type 'string' for Demo\\Person::getName is not nullable, but the function returns 'null|string'"
+        }
+    ]
+}
